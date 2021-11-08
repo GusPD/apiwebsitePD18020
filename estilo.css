@@ -1,0 +1,116 @@
+/*PD18020 José Gustavo Pineda Delgado*/
+/*Grupo de Trabajo: 05*/
+
+body{
+    background-color:blanchedalmond;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:2%;
+}
+section{
+    background-color:aquamarine ;
+    padding-left:4%;
+    padding-right:4%;
+    padding-top:2%;
+    padding-bottom: 2%;
+    border-radius: 25px;
+}
+h1{
+    color:#8b4513;
+    font-family:Cambria;
+    font-size: 40px;
+    line-height: 10px;
+}
+h2{
+    color:#8b4513;
+    font-family:Cambria;
+    font-size: 30px;
+    padding:0;
+    line-height: 10px;
+}
+h3{
+    color:black;
+    font-family:Cambria;
+    font-size: 20px;
+    font-weight: bold;
+    padding:0;
+    line-height: 10px;
+}
+p{
+    color:black;
+    font-family:Cambria;
+    font-size: 20px;
+    padding:0;
+    line-height: 10px;
+}
+button{
+    background-color:#8b4513;
+    border-radius: 8px;
+    height: 30px;
+    color:white;
+}
+form{
+    padding-bottom: 5%;
+}
+img {
+    width:2.5cm;
+    height:2.5cm;
+    padding:2%;
+}
+table {
+    border-collapse: collapse;
+    width:100%;
+    background-color: white;
+    text-align: center;
+}
+td{
+    color:black;
+    background-color:white;
+    font-family:Cambria;
+    size: 1%;
+    padding: 1.5%;
+}
+th{
+    color:white;
+    background-color:#8b4513;
+    font-family:Cambria;
+}
+.cFoto{
+    height:1cm;
+    width:4cm;
+}
+.cId{
+    height:1cm;
+    width:2cm;
+}
+.cPrice{
+    height:1cm;
+    width:3cm;
+}
+.cTitle{
+    height:1cm;
+    width:5cm;
+}
+.cDescription{
+    height:1cm;
+    width:9cm;
+}
+.cCategory{
+    height:1cm;
+    width:3cm;
+}
+th#price {
+    cursor:pointer;
+}
+li {
+    color:blue;
+}
+/*si chequea muestra los productos sin cheque desaparecen los productos*/
+input#c1:checked ~ table tbody tr.c1 { display: table-row; }
+input#c1:not(checked) ~ table tbody tr.c1 { display: none; }
+input#c2:checked ~ table tbody tr.c2 { display: table-row; }
+input#c2:not(checked) ~ table tbody tr.c2 { display: none; }
+input#c3:checked ~ table tbody tr.c3 { display: table-row; }
+input#c3:not(checked) ~ table tbody tr.c3 { display: none; }
+input#c4:checked ~ table tbody tr.c4 { display: table-row; }
+input#c4:not(checked) ~ table tbody tr.c4 { display: none; }
